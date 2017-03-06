@@ -4,14 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.meimei</groupId>
+    <groupId>com.mei</groupId>
     <artifactId>parent</artifactId>
     <version>1.0.0</version>
     <!-- 因为是父工程 ，因此此处的packaging必须为pom -->
     <packaging>pom</packaging>
 
-    <name>meimei</name>
-    <description>Super POM For qdian Projects</description>
+    <name>mei</name>
+    <description>Super POM For mei Projects</description>
     <inceptionYear>2017</inceptionYear>
 
 
