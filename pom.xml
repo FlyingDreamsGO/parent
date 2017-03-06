@@ -4,13 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.qdian</groupId>
+    <groupId>com.meimei</groupId>
     <artifactId>parent</artifactId>
     <version>1.0.0</version>
     <!-- 因为是父工程 ，因此此处的packaging必须为pom -->
     <packaging>pom</packaging>
 
-    <name>qdian</name>
+    <name>meimei</name>
     <description>Super POM For qdian Projects</description>
     <inceptionYear>2017</inceptionYear>
 
@@ -20,13 +20,13 @@
         <repository>
             <id>releases</id>
             <name>nexus distribution releases repository</name>
-            <url>http://192.168.1.77:8081/nexus/content/repositories/releases</url>
+            <url>http://127.0.0.1:9091/repository/maven-releases</url>
         </repository>
 
         <snapshotRepository>
             <id>snapshots</id>
             <name>nexus distribution snapshot repository</name>
-            <url>http://192.168.1.77:8081/nexus/content/repositories/snapshots</url>
+            <url>http://127.0.0.1:9091/repository/maven-snapshots</url>
         </snapshotRepository>
     </distributionManagement>
 
