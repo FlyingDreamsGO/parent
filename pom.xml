@@ -348,13 +348,13 @@
         <repository>
             <id>releases</id>
             <name>nexus distribution releases repository</name>
-            <url>http://127.0.0.1:9091/repository/maven-releases</url>
+            <url>http://192.168.1.77:8091/repository/maven-releases</url>
         </repository>
 
         <snapshotRepository>
             <id>snapshots</id>
             <name>nexus distribution snapshot repository</name>
-            <url>http://127.0.0.1:9091/repository/maven-snapshots</url>
+            <url>http://192.168.1.77:8091/repository/maven-snapshots</url>
         </snapshotRepository>
     </distributionManagement>
 
